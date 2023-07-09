@@ -44,7 +44,7 @@ public class Employee {
         this.position = position;
     }
 
-    public void setShiftTime(){
+    public void setShiftTime(String position){
         if(this.position == "Developer") {
             this.shiftTime = "Morning";
         } else if (this.position == "HR") {
@@ -70,8 +70,8 @@ public class Employee {
         return jobResponsibility;
     }
 
-    public void setJobResponsibility(String jobResponsibility) {
-        if(this.position == "developer"){
+    public void setJobResponsibility(String position) {
+        if(this.position == "Developer"){
             this.jobResponsibility = "code";
         } else if (this.position == "HR") {
             this.jobResponsibility = "hirefire";
@@ -83,8 +83,6 @@ public class Employee {
             this.jobResponsibility = "employee";
         }
     }
-
-
 
     public String getReportingManagerName() {
         return reportingManagerName;
@@ -98,7 +96,7 @@ public class Employee {
         return projectType;
     }
 
-    public void setProjectType(String projectType) {
+    public void setProjectType(String position) {
         if(this.position == "Developer"){
             this.projectType = "Project A";
         } else if (this.position == "HR") {
@@ -111,7 +109,6 @@ public class Employee {
             this.projectType = "No Project";
         }
     }
-
     public double positionfulltimeSalary(String position){
         if(this.position == "Developer") {
             this.salary = 50000.00;
@@ -142,7 +139,6 @@ public class Employee {
         }
         return this.salary;
     }
-
     public String getRoleType() {
         return roleType;
     }
@@ -151,7 +147,15 @@ public class Employee {
         this.roleType = roleType;
     }
 
-    public double calculateSalary(String position, String roleType) {
-        return this.salary;
+    public String getEmailId() {
+        return emailId;
+    }
+
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
+    }
+
+    public String getShiftTime() {
+        return shiftTime;
     }
 }
