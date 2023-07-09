@@ -13,6 +13,9 @@ public class main {
         System.out.println(developer.getShiftTime());
         developer.setRoleType("partTime");
 
+        System.out.println(developer.positionfulltimeSalary(developer.getPosition()));
+        System.out.println(developer.positionPartTimeSalary(developer.getPosition()));
+
         System.out.println(developer.getRoleType());
     }
 }
