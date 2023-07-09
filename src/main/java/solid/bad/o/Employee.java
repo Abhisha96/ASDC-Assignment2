@@ -12,12 +12,11 @@ public class Employee {
     private String emailId;
     private String shiftTime;
 
-    public Employee(String name, int age, String position, String emailId, String roleType) {
+    public Employee(String name, int age, String position, String emailId) {
         this.name = name;
         this.age = age;
         this.position = position;
         this.emailId = emailId;
-        this.roleType = roleType;
     }
 
     public String getName() {
@@ -138,13 +137,6 @@ public class Employee {
             this.salary = 20000.00 - constPartTime;
         }
         return this.salary;
-    }
-    public String getRoleType() {
-        return roleType;
-    }
-
-    public void setRoleType(String roleType) {
-        this.roleType = roleType;
     }
 
     public String getEmailId() {
