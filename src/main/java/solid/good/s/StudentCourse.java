@@ -24,5 +24,4 @@ public class StudentCourse {
             System.out.println(courseName+""+professorName+""+bannerNo);
         }
     }
-
 }

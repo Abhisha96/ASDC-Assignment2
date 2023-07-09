@@ -152,16 +152,6 @@ public class Employee {
     }
 
     public double calculateSalary(String position, String roleType) {
-        if (roleType.equals("fullTime")) {
-            // Calculation for full-time employee salary
-            this.salary = positionfulltimeSalary(position);
-            return this.salary;
-        } else if (roleType.equals("partTime")) {
-            // Calculation for part-time employee salary
-            this.salary = positionPartTimeSalary(position);
-            return this.salary;
-        } else {
-            return 0.0;
-        }
+        return this.salary;
     }
 }

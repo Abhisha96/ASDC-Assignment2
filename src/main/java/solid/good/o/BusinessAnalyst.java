@@ -1,6 +1,7 @@
 package solid.good.o;
 
 public class BusinessAnalyst extends Employee{
+    private double salary;
     public BusinessAnalyst(String name, int age, String emailId) {
         super(name, age, emailId);
     }

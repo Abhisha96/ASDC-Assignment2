@@ -12,7 +12,5 @@ public class main {
         juniordev.setSalary(1000);
         juniordev.setYearsExperience(1);
 
-        //seniorDev intern = new Intern("102","Nisha",89);
-        //intern.writeCode();
     }
 }

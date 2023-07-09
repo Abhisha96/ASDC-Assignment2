@@ -2,7 +2,7 @@ package solid.good.i;
 
 import static java.lang.Boolean.TRUE;
 
-public class Manager implements teamManager,teamHirer{
+public class Manager implements teamManager{
     private String Id;
     private String Name;
     private String salary;

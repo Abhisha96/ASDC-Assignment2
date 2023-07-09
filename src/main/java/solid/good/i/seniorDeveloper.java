@@ -2,7 +2,7 @@ package solid.good.i;
 
 import static java.lang.Boolean.TRUE;
 
-public class seniorDeveloper implements codeWriter,codeDebugger,codeReviewer,teamManager,teamHirer{
+public class seniorDeveloper implements codeWriter,codeDebugger,codeReviewer,teamManager{
     private String Id;
     private String name;
     private int age;

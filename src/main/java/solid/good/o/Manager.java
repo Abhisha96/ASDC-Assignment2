@@ -1,9 +1,11 @@
 package solid.good.o;
 
 public class Manager extends Employee{
+    private double salary;
     public Manager(String name, int age, String emailId) {
         super(name, age, emailId);
     }
+
     private String position;
     private String shiftTime;
     private String jobResponsibility;

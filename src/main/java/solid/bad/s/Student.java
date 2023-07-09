@@ -45,6 +45,8 @@ public class Student {
     public void setDob(String dob) {
         this.dob = dob;
     }
+
+    // Method to get the list of enrolled courses
     public List getEnrolledCoursesbyBanner(List<String> courseList) {
         for(int i=0;i<courseList.size();i++){
             enrolledCourse.add(courseList.get(i));
@@ -58,6 +60,7 @@ public class Student {
         System.out.println("Email"+getEmail());
         System.out.println("Dob"+getDob());
     }
+
     public void getGradesbyCourse(Map<String, String> gradesbyCourse) {
         for(Map.Entry<String,String> gradescourse: gradesbyCourse.entrySet()){
             String courseName = gradescourse.getKey();
@@ -77,6 +80,8 @@ public class Student {
     public void setFeesPaid(double feesPaid) {
         this.feesPaid = feesPaid;
     }
+
+    //Method to print the fees for the course
     public void getFeesbyCourse(Map<String,Double> courseFee){
         for(Map.Entry<String,Double> feesByCourse: courseFee.entrySet()){
             String courseName = feesByCourse.getKey();
@@ -84,6 +89,7 @@ public class Student {
             System.out.println(courseName+""+grade);
         }
     }
+    //  Method to calculate total fees paid
     public Double getTotalFeesPaid(Map<String,Double> courseFee){
         for(Double totalFees: courseFee.values())
         {
@@ -92,10 +98,12 @@ public class Student {
         }
         return startFees;
     }
+    //    Method to calculate pending fees
     public Double pendingFees(Double startFees){
         Double pendingFees = getFeesPaid() - startFees;
         return pendingFees;
     }
+    //   Method to get professors for each course
     public void getTaughtByCourse(Map<String,String> professorCourse){
         for(Map.Entry<String,String> taughtByCourse: professorCourse.entrySet()){
             String courseName = taughtByCourse.getKey();

@@ -1,6 +1,7 @@
 package solid.good.o;
 
 public class Developer extends Employee{
+    private double salary;
     public Developer(String name, int age, String emailId) {
         super(name, age, emailId);
     }

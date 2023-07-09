@@ -1,10 +1,12 @@
 package solid.good.o;
 
 public class HR extends Employee{
+    private double salary;
 
     public HR(String name, int age, String emailId) {
         super(name, age, emailId);
     }
+
     private String position;
     private String shiftTime;
     private String jobResponsibility;

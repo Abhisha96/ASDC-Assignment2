@@ -16,7 +16,5 @@ public class Main {
         seniorDeveloper seniorDev = new seniorDeveloper("104","Kashish");
         seniorDev.manageTeam();
         seniorDev.hireTeam();
-
-
     }
 }

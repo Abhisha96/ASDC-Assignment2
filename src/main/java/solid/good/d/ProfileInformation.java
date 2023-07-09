@@ -7,5 +7,4 @@ public interface ProfileInformation {
     public String getUserName(String ID);
     public String getDob(String ID);
     public String getEmail(String ID);
-
 }
