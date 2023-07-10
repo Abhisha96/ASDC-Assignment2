@@ -147,13 +147,22 @@ Lines of Code - 209
 All lines of code are calculated approximately.
 
 References
+
 [1] https://en.wikipedia.org/wiki/SOLID
+
 [2] https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
+
 [3] https://blog.knoldus.com/what-is-liskov-substitution-principle-lsp-with-real-world-examples/#:~:text=Simply%20put%2C%20the%20Liskov%20Substitution,the%20objects%20of%20our%20superclass.
+
 [4] https://stackify.com/solid-design-liskov-substitution-principle/
+
 [5] https://stackoverflow.com/questions/56860/what-is-an-example-of-the-liskov-substitution-principle
+
 [6] https://dev.to/tamerlang/understanding-solid-principles-dependency-inversion-1b0f
+
 [7] https://stackify.com/dependency-injection/#:~:text=Dependency%20injection%20is%20a%20programming,inversion%20and%20single%20responsibility%20principles.
+
 [8] https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+
 [9] https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
 
